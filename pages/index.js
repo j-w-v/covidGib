@@ -7,8 +7,7 @@ const Index = props => (
   <Layout>
     <h3>Gibraltar Situation</h3>
     <Stat title="Cases" stat={props.data.cases} />
-    <p>Cases: {props.data.cases}</p>
-    <p>New Today: {props.data.todayCases}</p>
+    <Stat title="New Today" stat={props.data.todayCases} />
     <p>Deaths: {props.data.todayDeaths}</p>
     <p>Recovered: {props.data.recovered}</p>
     <p>Active: {props.data.active}</p>
